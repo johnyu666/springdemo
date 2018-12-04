@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf9ba489-351b-47c1-8317-21940549bd78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WebApp/spring-security.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/java/cn/johnyu/SecurityWebInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/java/cn/johnyu/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/java/cn/johnyu/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/java/cn/johnyu/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/java/cn/johnyu/ui/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/WEB-INF/mvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/WEB-INF/mvc-servlet_bak.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/WEB-INF/templates/forbidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/WEB-INF/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/WEB-INF/templates/work.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/johnyu/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/johnyu/RepositoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/johnyu/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db_h2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db_mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/repository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/johnyu/AppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/cn/johnyu/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/cn/johnyu/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/webapp/WEB-INF/mvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecuritydemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../complete/src/main/java/hello/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../complete/src/main/java/hello/WebSecurityConfig.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@Mysql" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/RepositoryConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#454#462#1" expanded="true" />
+                <element signature="e#487#507#1" expanded="true" />
+                <element signature="e#544#557#1" expanded="true" />
+                <element signature="e#537#550#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/repository.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+              <folding>
+                <element signature="e#654#662#0" expanded="true" />
+                <element signature="e#726#746#0" expanded="true" />
+                <element signature="e#803#816#0" expanded="true" />
+                <element signature="e#873#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/johnyu/AppConfigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db_mysql.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5a6ab72-d001-45de-9569-3ab301f4caab/console_4.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="73" lean-forward="true" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/pojo/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/RepositoryConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f5a6ab72-d001-45de-9569-3ab301f4caab/console_4.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db_mysql.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/repository.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/johnyu/AppConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/johnyu/AppConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="834" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="johnyu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543940460906" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppConfigTest.testFindAllBooks">
+    <configuration name="AppConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.johnyu.AppConfig" />
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.johnyu.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfigTest.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.johnyu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.johnyu" />
+      <option name="MAIN_CLASS_NAME" value="cn.johnyu.AppConfigTest" />
+      <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfigTest.testFindAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.johnyu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.johnyu" />
+      <option name="MAIN_CLASS_NAME" value="cn.johnyu.AppConfigTest" />
+      <option name="METHOD_NAME" value="testFindAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppConfigTest.testFindAllBooks" />
+        <item itemvalue="JUnit.AppConfigTest.testAddBook" />
+        <item itemvalue="Application.AppConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf9ba489-351b-47c1-8317-21940549bd78" name="Default Changelist" comment="" />
+      <created>1543932078548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543932078548</updated>
+      <workItem from="1543932080117" duration="7324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 32m 27s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 45m 18s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 47m 50s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 48m 37s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 54m 27s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 54m 43s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testAddBook - 2018.12.04 at 23h 54m 59s.xml">
+      <configuration name="AppConfigTest.testAddBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.04 at 23h 55m 05s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.05 at 00h 19m 03s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppConfigTest_testFindAllBooks - 2018.12.05 at 00h 20m 34s.xml">
+      <configuration name="AppConfigTest.testFindAllBooks" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7324000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.236712" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32908705" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32908705" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="SQL Generator" order="7" weight="0.32908705" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32908705" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.47346073" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32941905" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32941905" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.3541409" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db_h2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5121c700-02d5-4f94-ae2a-0891fe593185/database/TESTH2/schema/PUBLIC/table/BOOK">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/pojo/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.2.RELEASE/spring-jdbc-5.1.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.2.RELEASE/spring-jdbc-5.1.2.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/RepositoryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#462#1" expanded="true" />
+            <element signature="e#487#507#1" expanded="true" />
+            <element signature="e#544#557#1" expanded="true" />
+            <element signature="e#537#550#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5a6ab72-d001-45de-9569-3ab301f4caab/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" lean-forward="true" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db_mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/repository.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="e#654#662#0" expanded="true" />
+            <element signature="e#726#746#0" expanded="true" />
+            <element signature="e#803#816#0" expanded="true" />
+            <element signature="e#873#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/dao/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/johnyu/AppConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/johnyu/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springdemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

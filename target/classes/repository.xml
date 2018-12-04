@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans profile="production">
+        <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+            <property name="location" value="classpath:db_mysql.properties"></property>
+        </bean>
+        <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+            <property name="url" value="${url}"></property>
+            <property name="driverClassName" value="${driverClassName}"></property>
+            <property name="username" value="${username}"></property>
+            <property name="password" value="${password}"></property>
+        </bean>
+        <bean class="org.springframework.jdbc.core.JdbcTemplate" autowire="byType">
+        </bean>
+    </beans>
+</beans>
